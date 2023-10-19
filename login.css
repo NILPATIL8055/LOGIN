@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+#main{
+    animation: party 8s infinite;
+  
+}
+@keyframes party
+{
+    0%{
+        background-color: rgb(13, 99, 23);
+
+    }
+    
+   25% { background-color: rgb(33, 188, 25);
+
+    }
+    50%{
+        background-color:   rgb(106, 144, 34);
+    }
+    75%{
+        background-color: rgb(138, 200, 38);
+    }
+    100%{
+        background-color:  rgb(172, 246, 98);
+    }
+}
+a{text-decoration: none;
+    color: aqua;
+}
+
+label,input,a{
+    display: block;
+}
+#new{
+    text-align: center;
+}
+#but{
+    display: flex;
+    justify-content: space-between;
+}
+
+#main{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+
+}
+
+label{
+    font-size: 25px;
+}
+
+form{
+    background-color: rgb(100, 106, 106);
+    width: 35%;
+    border-radius: 10px;
+    padding: 30px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button{
+    width:25% ;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    color: brown;
+}
+
+
+#cancel{
+background-color: rgba(238, 128, 95, 0.873);
+}
